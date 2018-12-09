@@ -15,24 +15,33 @@ h2{
 }
 
 p{
-    position: absolute;
-    margin-top: 0px;
+    /* position: absolute; */
+    margin-top: 60px;
+    margin-left: 20px;
     color: #777777;
     float: left;
-    overflow: auto;
+    font-size: 20px;
+    line-height: 30px;
+    /* overflow: auto; */
 }
 
 footer{
-    height: 90px;
-    position: relative;
+    /* margin-top:60px; */
+    height: 60px;
+    width: 2000px;
+    position: fixed;
+    bottom: -4px;
+    left: -4px;
     /* top: 110px; */
     background-color: #666666;
     border: 4px solid #4aaaa5;
+    overflow: visible;
 }
 
 img{
     /* position: absolute; */
-    margin-top: 60px;
+    /* margin-top: 60px; */
+    margin-right: 20px;
     float: left;
 }
 
@@ -41,21 +50,32 @@ img{
     height: 350px;
     margin-left: 200px;
     margin-right: 200px;
-    margin-top: -30px;
+    /* margin-top: -30px; */
+    margin-top: 130px;
     margin-bottom: 60px;
     background-color: #ffffff;
     position: relative;
 }
 
+/* .middle{
+    margin-top: 130px;
+} */
+
 .row{
+    /* position: fixed; */
     height: 90px;
     margin-top: 30px;
     background-color: #ffffff;
 }
 
 .top{
-    position: relative;
-    top: -30px;
+    position: fixed;
+    top:-3px;
+    left:-3px;
+    margin-top: 0px;
+    width: 1400px;
+    /* position: relative;
+    top: -30px; */
     background-color: #ffffff;
     border: 3px solid #cccccc;
 }
@@ -68,17 +88,25 @@ img{
     background-color: #4aaaa5;
     color: #ffffff;
 }
+/* .new{
+    position: absolute;
+    background-color:red;
+    height: 90px;
+    width: 100px;
+    right: 0;
+} */
 
 .directory{
     position: absolute;
     right: 0;
+    margin-right:30px;
     background-color:#ffffff;
 }
 
 .column{
     float: left;
     height: 60px;
-    margin: 30px 20px 0px 20px;
+    margin: 30px 10px 0px 10px;
     background-color: #ffffff;
     overflow: auto;
     color: #777777;
