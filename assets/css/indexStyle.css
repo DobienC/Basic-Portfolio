@@ -1,0 +1,29 @@
+.container{
+    width: 960px;
+    margin: 0px 200px 0px 200px;
+    background-color: lightblue;
+    position: relative;
+}
+
+.row{
+    height: 100px;
+    margin: 30px 10px 30px 10px;
+    background-color: red;
+}
+
+.top{
+    position: relative;
+    top: 10px;
+}
+
+.name{
+    float: left;
+}
+
+.directory{
+    float: right;
+}
+
+.column{
+    float: left;
+}
