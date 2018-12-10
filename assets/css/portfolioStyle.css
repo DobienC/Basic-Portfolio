@@ -39,10 +39,12 @@ footer{
 }
 
 img{
+    position: relative;
     margin-right: 20px;
     float: left;
-    height: 250px;
-    width: 175px;
+    height: 150px;
+    width: 200px;
+    /* right: 150px; */
 }
 
 .container{
@@ -94,4 +96,17 @@ img{
     background-color: #ffffff;
     overflow: auto;
     color: #777777;
+}
+
+.imgRow{
+    background-color: red;
+    height: 150px;
+    width: 960px;
+    margin-top: 10px;
+}
+
+.imgContainer{
+    height:150px;
+    width:150px;
+    margin: 0px 0px 0px 20px;
 }
